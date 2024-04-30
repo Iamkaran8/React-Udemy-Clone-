@@ -1,0 +1,16 @@
+.empty{
+    height: 400px;
+    border-radius: 5px;
+    border: 1px solid #ddd7d79d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fill{
+    border-radius: 5px;
+    border: 1px solid #ddd7d79d;
+}
+.fill .img{
+    width: 100%;
+}

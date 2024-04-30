@@ -1,0 +1,54 @@
+.navbar{
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+    z-index: 1010;
+}
+.navbar-brand img{
+    height: 34px;
+    width: 91px;
+}
+.cart img {
+    width: 24px;
+}
+.btn-log{
+    color: #2d2f31;
+    background-color: transparent;
+    border: 1px solid #2d2f31;
+    border-radius: 0px!important;
+    margin-left: 10px;
+}
+.btn-log:hover{
+    color: #2d2f31;
+    background-color: rgba(23,57,83,.12);
+}
+.btn-sign{
+    background-color:#2d2f31;
+    border-radius: 0px!important;
+    color: #fff!important;
+    margin-left: 10px;
+}
+.btn-sign:hover{
+    background-color: #3e4143;
+}
+
+footer{
+    background-color: #1c1d1f;
+}
+footer .nav-link{
+    color: white!important;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+.form-control{
+    border-radius: 100px;
+}
+.btn-submit{
+    border-radius: 100px;
+    background-color:#2d2f31;
+    color: #fff!important;
+    margin-left: 10px;
+}
+.Userimg img{
+    width: 40px;
+    height: 40px;
+}

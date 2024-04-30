@@ -1,0 +1,26 @@
+.Sign-heading{
+    color:  rgb(45, 47, 49)!important;
+}
+.form-group input{
+    width: 100%;
+}
+.btn-indigo{
+    background-color: #5624d0;
+    color: #fff;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn-indigo:hover{
+    color: #fff;
+}
+.form-group input::placeholder{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px!important;
+    
+}
+.link-color{
+    color:#5624d0;
+}

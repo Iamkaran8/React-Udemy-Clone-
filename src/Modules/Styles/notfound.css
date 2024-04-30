@@ -1,0 +1,45 @@
+.notfound{
+    padding: 4.8rem 2.4rem 6.4rem;
+    font-family: "Roboto", sans-serif;
+}
+.notfound h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 2.4rem auto .8rem;
+}
+.notfound p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27px;
+}
+.bar{
+    background-color:#1c1d1f ;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #fff;
+}
+hr{
+    background-color:#1c1d1f ;
+}
+.high-link{
+    color: #cec0fc;
+}
+
+
+
+
+/* mobile */
+@media only screen and (max-device-width: 480px){
+    .bar img{
+        width: 44px;
+    }
+    .notfound img{
+        width: 80%;
+    }
+    .notfound h1{
+        font-size: 28px;
+
+    }
+}

@@ -1,0 +1,46 @@
+.testi{
+    padding: 25px 30px;
+    margin: 0 0px 15px 0;
+    border-radius: 2px;
+    /* -webkit-box-shadow: 0 4px 20px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,0.15); */
+    background-color: #f5f5f586;
+ }
+ /* custom */
+ .slick-prev:before, .slick-next:before{
+     color: #5624d0!important;
+ }
+ .testi h3{
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 20px;
+ }
+ .testi h5{
+     font-size: 12px;
+     font-weight: 500;
+     line-height: 18px;
+ }
+ .testi p{
+     font-size: 14px;
+     font-weight: 400;
+     font-style: italic;
+     line-height: 18px;
+ }
+ .testi img{
+     width: 80px;
+ }
+ .slick-track{
+     column-gap: 30px!important;
+     display: flex!important;
+ }
+ 
+ 
+ 
+ @media only screen and (max-device-width: 480px){
+ .slick-arrow{
+     display: none!important;
+ }
+ .slick-track{
+     column-gap: 0px!important;
+ }
+ }
